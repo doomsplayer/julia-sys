@@ -1,0 +1,11 @@
+[package]
+name = "julia-sys"
+version = "0.1.0"
+authors = ["Wu Young <doomsplayer@gmail.com>"]
+build = true
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+bindgen = "0.21"

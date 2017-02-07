@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "type": "lldb",
+        "request": "launch",
+        "name": "Debug",
+        "program": "${workspaceRoot}/target/debug/box_unbox_types-450f7cf9709af491",
+        "args": ["--nocapture"],
+        "cwd": "${workspaceRoot}"
+    }]
+}
