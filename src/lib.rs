@@ -1,4 +1,4 @@
-#![feature(untagged_unions, ptr_wrapping_offset)]
+#![feature(untagged_unions)]
 
 extern crate libc;
 
